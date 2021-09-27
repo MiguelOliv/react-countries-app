@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georama", sans-serif;
+  /* padding: 20px; */
+  background-color: #202d36;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: hsl(207, 26%, 17%);
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid hsl(207, 26%, 17%);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(207, 26%, 17%);
+}
+
+.btn-light {
+  background-color: hsl(209, 23%, 22%);
+  border: 2px solid hsl(209, 23%, 22%);
+}
+
+@media (min-width: 992px) {
+  .grid,
+  .header,
+  .search-container {
+    padding: 20px 100px !important;
+  }
+}
